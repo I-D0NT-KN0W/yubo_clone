@@ -1,0 +1,554 @@
+@font-face {
+    font-family: kuch;
+    src: url(./RightGrotesk-CompactBlack.otf);
+}
+
+@font-face {
+    font-family: lit;
+    src: url(./RightGrotesk-Regular.ttf);
+}
+
+::selection {
+    color: red;
+    background: violet;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+}
+#main #page1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: cover;
+    position: relative;
+}
+#nav {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    z-index: 99;
+}
+#menu {
+    height: 20px;
+    width: 35px;
+    cursor: pointer;
+}
+#line {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#nav>img {
+    height: 80px;
+    cursor: pointer;
+}
+#nav-part2 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+#nav-part2 i {
+    color: #fff;
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#nav-part2 img {
+    height: 40px;
+    cursor: pointer;
+}
+#nav-part2 #str {
+    height: 25px;
+    margin-right: 10px;
+    width: 2px;
+    background-color: white;
+}
+#page1 h1 {
+    font-size: 170px;
+    font-family: kuch;
+    line-height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffe30a;
+    text-align: center;
+}
+#page2 {
+    height: 150%;
+    width: 100%;
+    background-color: #ffe30a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2-left img {
+    margin-top: 50px;
+    cursor: pointer;
+}
+#page2-left h1 {
+    font-size: 150px;
+    font-family: kuch;
+    line-height: 150px;
+}
+#page2-right {
+    height: 70%;
+    width: 37%;
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#page2-right #phone {
+    height: 100%;
+    position: absolute;
+}
+#chat {
+    position: absolute;
+    left: -10%;
+    top: 35%;
+    height: 170px;
+}
+#lit {
+    position: absolute;
+    height: 135px;
+    top: 17%;
+    right: -5%;
+}
+#hey {
+    position: absolute;
+    bottom: 20%;
+    left: -10%;
+    height: 120px;
+}
+#o {
+    position: absolute;
+    right: -15%;
+    bottom: 0%;
+    height: 200px;
+}
+#yubo {
+    position: absolute;
+    right: -30%;
+    bottom: 23%;
+    height: 100px;
+}
+#page3 {
+    height: 330%;
+    width: 100%;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-color: #ffe30a;
+    background-size: cover;
+}
+#page3-part1 {
+    height: 42%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page3-part1 h1 {
+    font-size: 150px;
+    font-family: kuch;
+    font-weight: 700;
+    line-height: 130px;
+    color: #ffe30a;
+}
+#div2 p {
+    font-size: 35px;
+    line-height: 40px;
+    font-family: lit;
+    color: #fff;
+}
+#div2 button{
+    font-family: lit;
+    font-size: 20px;
+    padding: 15px 40px 20px 40px;
+    margin-top: 50px;
+    background-color: #ffe30a;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    border:1px solid #00000000;
+    transition: all ease 0.5s;
+}
+#div2 button:hover {
+    background-color: #00000000;
+    color: #ffe30a;
+    border-color: #ffe30a;
+    border: 1px solid #ffe30a;
+}
+#page3-part2 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+#page3-part2 svg{
+    transform: scaleX(-1) scaleY(-1);
+    position: absolute;
+    z-index: 1;
+    font-family: kuch;
+    letter-spacing: 10px;
+    font-weight: 900;
+    pointer-events: none;
+    font-size: 100px;
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#right-side {
+    width: 35%;
+    height: 80%;
+    background-size: cover;
+    background-image: url(https://www.yubo.live/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fyubo%2F82f890e9-ec72-4384-a0ba-67e945627f47_210211_Yubo_HSS_04_568--scaled.jpg.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=75);
+    border-radius: 40px;
+}
+#left-side {
+    width: 35%;
+    height: 95%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+
+#left-side img {
+    position: absolute;
+    top: 0px;
+}
+
+#left-side p {
+    width: 95%;
+    font-size: 35px;
+    font-family: lit;
+    color: white;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+#left-side a{
+    font-family: lit;
+    font-size: 20px;
+    padding: 15px 40px 20px 40px;
+    margin-top: 50px;
+    background-color: #ffe30a;
+    color: black;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    border:1px solid #00000000;
+    transition: all ease 0.5s;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 90px;
+}
+#left-side a:hover {
+    background-color: #00000000;
+    color: #ffe30a;
+    border-color: #ffe30a;
+    border: 1px solid #ffe30a;
+}
+
+#page3-part3 {
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    position: relative;
+    z-index: 9;
+}
+
+#page3-part3 h1 {
+    font-size: 150px;
+    line-height: 150px;
+    font-family: kuch;
+    color: #ffe30a;
+}
+
+#page3-part3 span img {
+    height: 115px;
+}
+
+#page3-part3 button{
+    font-family: lit;
+    font-size: 20px;
+    padding: 15px 40px 20px 40px;
+    margin-top: 50px;
+    background-color: #ffe30a;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    border:1px solid #00000000;
+    transition: all ease 0.5s;
+}
+#page3-part3 button:hover {
+    background-color: #00000000;
+    color: #ffe30a;
+    border-color: #ffe30a;
+    border: 1px solid #ffe30a;
+}
+
+#page4 {
+    height: 220%;
+    width: 100%;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    background-size: cover;
+    background-color: #151400;
+    position: relative;
+}
+
+#page4 .elem {
+    height: 540px;
+    width: 406px;
+    border-radius: 50px;
+    position: absolute;
+    top: 17%;
+    left: 14%;
+    overflow: hidden;
+}
+
+#page4 .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.elem #overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    transition: all ease 0.3s;
+}
+
+.elem:hover #overlay {
+    background-color: transparent;
+}
+
+.elem h4 {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    font-family: kuch;
+    background-color: #976bff;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.elem h2 {
+    position: absolute;
+    bottom: 15%;
+    font-family: kuch;
+    padding: 8px 17px;
+    color: white;
+    font-size: 60px;
+    line-height: 55px;
+}
+
+.elem h3 {
+    position: absolute;
+    bottom: 8%;
+    font-family: lit;
+    padding: 8px 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#page4 #elem2{
+    height: 540px;
+    width: 580px;
+    top: 0%;
+    left: 48%;
+}
+
+#page4 #elem3 {
+    height: 540px;
+    width: 460px;
+    border-radius: 50px;
+    top: 40%;
+    left: 52%;
+}
+
+#elem2 h4 {
+    position: absolute;
+    right: 77%;
+    top: 6%;
+    font-family: kuch;
+    background-color: #ff5252;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#elem3 h4 {
+    position: absolute;
+    right: 65%;
+    top: 4%;
+    font-family: kuch;
+    background-color: #ffe30a;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#elem3 h3 {
+    position: absolute;
+    bottom: 4%;
+    font-family: lit;
+    padding: 8px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#page4>img {
+    position: absolute;
+    bottom: -6%;
+    left: 50%;
+    height: 400px;
+    transform: translate(-50%,0%);
+    z-index: 9;
+}
+
+#page5 {
+    height: 98%;
+    width: 100%;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-size: cover;
+    background-position: top;
+    background-color: #976bff;
+}
+
+#r1 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col h2 {
+    font-family: kuch;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.col h3 {
+    width: max-content;
+    position: relative;
+    font-family: lit;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#page5 .col h3::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: all ease 0.4s;
+}
+
+#page5 .col h3:hover::after {
+    width: 100%;
+}
+
+#r2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#page5 .social {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: white;
+        background-color: #151400;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 12px;
+}
+
+#page5 .social:hover {
+    cursor: pointer;
+}
+
+#page5 .social i {
+    font-size: 40px;
+}
+
+#r3 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#r3 h2{
+    font-family: kuch;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#r3 h3{
+    font-family: lit;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#r3l {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+#r3r {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
